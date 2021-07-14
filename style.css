@@ -274,14 +274,11 @@ footer h5{
 
 @media only screen and (max-width: 480px) {
    
-.wrapper{
-    background: #2D25A0;
-    width:100%;
-    
-}
+
 .container{
     width: 100%;
     margin: 0;
+    
 }
 .nav-bar .bar{
     margin :20px;
@@ -295,25 +292,22 @@ footer h5{
 }
 
 .nav-bar .main-menu{
-    flex-direction:column;
+    
     
     display:none;
 }
 
-.nav-bar .bar:hover .main-menu{
-    display: block;
-    
 
-}
 
 .banner, .main-highlight{
     flex-direction: column;
 }
 
-.banner-info, .highlight-info{
+.banner-info{
     width:100%;
     text-align: center;
-    padding: 10px 20px;
+    
+    margin-top: -40px;
     
 }
 
@@ -356,12 +350,20 @@ footer h5{
     
     
 }
+
+.highlight-info{
+    width:60%;
+    text-align: center;
+    padding: 10px 20px;
+    
+}
 .highlight-image img{
-    margin:120px 20px;
+    margin:50px 20px;
+    width: 80%;
 }
 
 .footer{
-    margin-top: 50px;
+    margin-top: -30px;
 }
 
 .footer_image{
