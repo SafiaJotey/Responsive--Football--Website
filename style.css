@@ -224,7 +224,24 @@ body{
    
     color:black;
 }
+/* host city css */
+.host{
+    margin-top:100px;
+    
+}
+   .host h1{
+       text-align:center;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 50px;
+    color:#E02C6D;
 
+   }
+   .host img{
+       margin-top: 100px;
+       margin-bottom: 200px;
+   }
 /* footer section css */
 
 .footer{
