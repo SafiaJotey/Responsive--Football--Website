@@ -47,14 +47,14 @@ body{
 
 
 
-.wrapper{
-    background: #2D25A0;
-    width:100%;
-}
+
 
 
 /* top-banner section css */
-
+#wrapper{
+    background: #2D25A0;
+    
+}
 
 .top-banner{
     
@@ -274,7 +274,9 @@ footer h5{
 
 @media only screen and (max-width: 480px) {
    
-
+#wrapper{
+    width:109.8%;
+}
 .container{
     width: 100%;
     margin: 0;
@@ -352,14 +354,14 @@ footer h5{
 }
 
 .highlight-info{
-    width:60%;
+    width:80%;
     text-align: center;
     padding: 10px 20px;
     
 }
 .highlight-image img{
     margin:50px 20px;
-    width: 80%;
+    width: 90%;
 }
 
 .footer{
