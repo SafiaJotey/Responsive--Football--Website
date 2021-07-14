@@ -238,6 +238,7 @@ body{
     color:#E02C6D;
 
    }
+   
    .host img{
        margin-top: 100px;
        margin-bottom: 200px;
@@ -381,6 +382,10 @@ footer h5{
 .highlight-image img{
     margin:50px 20px;
     width: 90%;
+}
+.brazil img{
+    margin-top: 200px;
+    
 }
 
 .footer{
