@@ -192,7 +192,7 @@ body{
     
 }
 .highlight-image{
-    height: 427px;
+    
     width: 567px;
 
 
@@ -242,6 +242,7 @@ body{
    }
    
    .host img{
+       width:100%;
        margin-top: 100px;
        margin-bottom: 200px;
    }
@@ -393,10 +394,9 @@ footer h5{
     
 }
 
-.footer{
-    margin-top: -30px;
+footer{
+    padding-top: 180px;
 }
-
 .footer_image{
     width:60%;
 }
@@ -428,5 +428,17 @@ footer h5{
       
     
     }
+    .highlight-image img{
+        margin:0px 20px;
+        width: 90%;
+    }
+
+    .host img{
+        
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+   
 
 }
