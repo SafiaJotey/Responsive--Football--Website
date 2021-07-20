@@ -25,7 +25,7 @@ body{
 }
 
 .container{
-    width: 1160px;
+    width: 84%;
     margin: 0 auto;
     
 }
@@ -123,17 +123,19 @@ body{
  
 .Top-players{
     display: grid;
-    grid-template-columns: repeat(3,330px);
-    grid-gap:27px 30px;
+    grid-template-columns: repeat(3,1fr);
+     grid-gap:27px 30px;
     
-    padding: 70px 0 139px;
-    margin-left: 180PX;
+  padding: 85px 0 139px;
+  text-align: center;
+   /* margin-left: 180PX;  */
     
     
 }
- .blogs{
+
+.blogs{
     
-    
+    text-align: center;
     Width :330px;
     Height: 474px;
     padding: 15px ;
@@ -141,7 +143,7 @@ body{
     
     
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
- }
+ } 
 
  .blogs h2{
      color: #18191f;
@@ -291,12 +293,9 @@ footer h5{
 /* media query */
 
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 768px) {
    
-#wrapper{
-    width:108%;
-    height: 950px;
-}
+
 .container{
     width: 100%;
     margin: 0;
@@ -310,14 +309,17 @@ footer h5{
 }
 
 .link-button{
-    margin-right: 50px;
+    margin-right: 0px;
+    padding:5px 15px;
 }
 
 .nav-bar .main-menu{
+   display: none;
     
     
-    display:none;
 }
+
+
 
 
 
@@ -347,18 +349,20 @@ footer h5{
 
 }
 .Top-players{
-    display: grid;
-    grid-template-columns: 1fr;
    
     
-    padding: 20px;
-    margin-left:0px;
+    grid-template-columns: repeat(2,330px);
+  
+    
     
     
 }
-
+ .main-highlight{
+     flex-direction: column-reverse;
+ }
+ 
 .highlight-image{
-    
+   
     width: 90%;
     
 
@@ -376,7 +380,7 @@ footer h5{
 .highlight-info{
     width:80%;
     text-align: center;
-    padding: 10px 20px;
+    padding: 20px 20px;
     
 }
 .highlight-image img{
@@ -384,7 +388,8 @@ footer h5{
     width: 90%;
 }
 .brazil img{
-    margin-top: 200px;
+    margin-top: 20px ;
+
     
 }
 
@@ -396,5 +401,32 @@ footer h5{
     width:60%;
 }
 
+
+}
+
+@media only screen and (max-width: 768px){
+
+    .Top-players{
+   
+    
+        grid-template-columns: repeat(1,330px);
+      
+        
+        
+        
+    }
+
+    .top-banner{
+    
+        padding: 20px 0 0px;
+    }
+
+    .banner-image{
+        width: 80%;
+        margin-top:200px ;
+        margin-bottom:0px ;
+      
+    
+    }
 
 }
