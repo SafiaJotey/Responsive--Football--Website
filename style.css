@@ -247,7 +247,7 @@ body{
    }
 /* footer section css */
 
-.footer{
+.Footer{
     display: flex;
     flex-direction: column;
     align-items: center;
